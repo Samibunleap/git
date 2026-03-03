@@ -1,0 +1,82 @@
+body{
+font-family: Arial;
+background: linear-gradient(to right,#dbeafe,#f8fafc);
+text-align:center;
+}
+.cover{
+    background:white;
+    margin:40px auto;
+    padding:40px;
+    width:90%;
+    max-width:900px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,0.1);
+}
+
+.cover img{
+    width:120px;
+}
+
+.cover h1{
+    margin:20px 0;
+    font-size:28px;
+}
+
+.cover p{
+    margin:8px 0;
+    color:#555;
+}
+
+
+.container{
+width:100%;
+max-width:900px;
+margin:auto;
+}
+
+.card{
+background:white;
+padding:20px;
+margin:20px 0;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+
+input{
+width:90%;
+padding:10px;
+margin:10px 0;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+button{
+padding:10px 15px;
+margin:5px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+background:#3b82f6;
+color:white;
+}
+
+button:hover{
+transform:scale(1.05);
+}
+
+.result{
+background:#fde68a;
+
+padding:10px;
+margin-top:10px;
+border-radius:8px;
+min-height:30px;
+font-weight:bold;
+}
+.footer{
+    text-align:center;
+    padding:20px;
+    color:#555;
+}
