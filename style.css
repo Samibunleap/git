@@ -39,7 +39,7 @@ nav a:hover {
 /* HERO */
 .hero {
     height: 90vh;
-    background: url("background-header.avif") no-repeat center/cover;
+    background: url("./image/background-header.avif") no-repeat center/cover;
     width:auto;
     display: flex;
     align-items: center;
@@ -149,4 +149,5 @@ nav a:hover {
 .product p {
     font-weight: bold;
 }
+
 
