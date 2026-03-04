@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shop</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+
+<!-- FILTER BAR -->
+<div class="filter-bar">
+
+    <div class="filter-item" onclick="toggleDropdown()">
+        Categories ▼
+    </div>
+
+    <div class="filter-item">
+        Color ▼
+        <div class="dropdown" id="colorDropdown">
+            <p onclick="filterColor('blue')">🔵 Blue</p>
+            <p onclick="filterColor('grey')">⚪ Grey</p>
+            <p onclick="filterColor('red')">🔴 Red</p>
+            <p onclick="filterColor('yellow')">🟡 Yellow</p>
+        </div>
+    </div>
+
+    <div class="filter-item">Size ▼</div>
+    <div class="filter-item">Brand ▼</div>
+    <div class="filter-item">Price ▼</div>
+
+</div>
+
+<!-- PRODUCT GRID -->
+<div class="products">
+
+    <div class="product" data-color="yellow">
+        <img src="images/product1.jpg">
+        <h4>Lace Shirt Cut II</h4>
+        <p>$16.00</p>
+        <div class="colors">
+            <span class="dot blue"></span>
+            <span class="dot grey"></span>
+            <span class="dot yellow"></span>
+        </div>
+    </div>
+
+    <div class="product" data-color="grey">
+        <img src="images/product2.jpg">
+        <h4>Lace Shirt Cut II</h4>
+        <p>$16.00</p>
+        <div class="colors">
+            <span class="dot blue"></span>
+            <span class="dot red"></span>
+            <span class="dot grey"></span>
+        </div>
+    </div>
+
+    <div class="product" data-color="blue">
+        <img src="images/product3.jpg">
+        <h4>Lace Shirt Cut II</h4>
+        <p>$16.00</p>
+        <div class="colors">
+            <span class="dot blue"></span>
+            <span class="dot grey"></span>
+        </div>
+    </div>
+
+    <div class="product" data-color="red">
+        <img src="images/product4.jpg">
+        <h4>Lace Shirt Cut II</h4>
+        <p>$16.00</p>
+        <div class="colors">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+        </div>
+    </div>
+
+</div>
+
+<!-- PAGINATION -->
+<div class="pagination">
+    <span class="active">1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>→</span>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-left">
+        <h3>Receive an exclusive <span>20%</span> discount code when you signup.</h3>
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+    </div>
+
+    <div class="footer-right">
+        <div>
+            <h4>Company</h4>
+            <p>About Us</p>
+            <p>Blog</p>
+            <p>Careers</p>
+        </div>
+
+        <div>
+            <h4>Customer Care</h4>
+            <p>Size Guide</p>
+            <p>Help & FAQs</p>
+            <p>Return Policy</p>
+        </div>
+
+        <div>
+            <h4>Follow Us</h4>
+            <p>Instagram</p>
+            <p>Facebook</p>
+            <p>Pinterest</p>
+        </div>
+    </div>
+</footer>
+
+<script src="shop.js"></script>
+</body>
+</html>
